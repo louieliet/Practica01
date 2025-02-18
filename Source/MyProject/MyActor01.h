@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "MyActorHW.generated.h"
+#include "MyActor01.generated.h"
 
 UCLASS()
-class MYPROJECT_API AMyActorHW : public AActor
+class MYPROJECT_API AMyActor01 : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AMyActorHW();
+	AMyActor01();
 
 protected:
 	// Called when the game starts or when spawned
